@@ -160,7 +160,7 @@ and wait where the parent process forks creating a child process, giving the chi
 an executable to run, and the parent process waiting for the child process to execute and
 terminate before it moves on with the rest of the instructions it has to execute.
 
-## Signals in a UNIX Environment:
+# Signals in a UNIX Environment:
 Signals are ways of informing a program of a new event and respectively to perform an
 action in the condition of this new event occurring. Within the UNIX environment, users
 get full control over what happens when a particular signal is sent:
@@ -192,7 +192,7 @@ function (which likely will be the main thread).
 without the `unistd.h` lib but with the forward declaration? Where did the program know
 the implementation of the `getlogin` function?
 - If the compiler doesn't know what a function returns, it assumes that it will return
-an integer. This is an interesting functionality, I wonder why the developer of the C
+an integer. This is an interesting functionality, I wonder why the developers of the C
 compiler did so?
 - I understand why `ls -l` and `cat <file>` failed in simple-shell.c, but am not too
 sure about `exit`.
